@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.daimajia.swipe.SwipeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/swipe"
+    app:leftEdgeSwipeOffset="0dp"
+    app:rightEdgeSwipeOffset="0dp"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/bottom_wraper"
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/Delete"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#0076a5"
+            android:gravity="center"
+            android:text="Borrar"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/Share"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#2cbb00"
+            android:gravity="center"
+            android:text="Compartir"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_wrapper1"
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/Edit"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ff0000"
+            android:gravity="center"
+            android:text="Editar"
+            android:textColor="#fff" />
+
+
+        <ImageButton
+            android:id="@+id/btnLocation"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center"
+            android:src="@android:drawable/ic_menu_info_details" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/contacto"
+            android:layout_marginTop="10dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp">
+
+            <TextView
+                android:id="@+id/Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/EmailId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=""
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/carrera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text=""
+                android:textSize="15dp"
+                android:textColor="#000000"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.daimajia.swipe.SwipeLayout>
