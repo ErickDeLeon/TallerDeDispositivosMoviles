@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/faceIcon"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
+        android:src="@drawable/dragonite"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="false"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnRun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#350909"
+                android:onClick="onButtonClick"
+                android:text="@string/crecer"
+                android:textColor="#ffffff"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:id="@+id/btnRun2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#350909"
+                android:onClick="onButtonClick2"
+                android:text="@string/girar"
+                android:textColor="#ffffff"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:id="@+id/btnRun4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#350909"
+                android:onClick="onButtonClick5"
+                android:text="@string/ambos"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#ffffff" />/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="false"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnRun1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorBoton2"
+                android:onClick="onButtonClick3"
+                android:text="@string/rebotar"
+                android:visibility="invisible"/>
+
+            <Button
+                android:id="@+id/btnRun3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorBoton1"
+                android:onClick="onButtonClick4"
+                android:text="@string/parpadeo"
+                android:visibility="invisible" />/>
+
+            <Button
+                android:id="@+id/btnRun5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorBoton2"
+                android:onClick="onButtonClick6"
+                android:text="@string/fundirse"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
