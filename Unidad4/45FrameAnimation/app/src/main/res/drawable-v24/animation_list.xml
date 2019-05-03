@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/poke01" android:duration="150" />
+    <item android:drawable="@drawable/poke02" android:duration="150" />
+    <item android:drawable="@drawable/poke03" android:duration="150" />
+    <item android:drawable="@drawable/poke04" android:duration="150" />
+    <item android:drawable="@drawable/poke05" android:duration="150" />
+    <item android:drawable="@drawable/poke06" android:duration="150" />
+    <item android:drawable="@drawable/poke07" android:duration="150" />
+    <item android:drawable="@drawable/poke08" android:duration="150" />
+    <item android:drawable="@drawable/poke09" android:duration="150" />
+    <item android:drawable="@drawable/poke10" android:duration="150" />
+    <item android:drawable="@drawable/poke11" android:duration="150" />
+    <item android:drawable="@drawable/poke12" android:duration="150" />
+    <item android:drawable="@drawable/poke13" android:duration="150" />
+    <item android:drawable="@drawable/poke14" android:duration="150" />
+    <item android:drawable="@drawable/poke15" android:duration="150" />
+    <item android:drawable="@drawable/poke16" android:duration="150" />
+    <item android:drawable="@drawable/poke17" android:duration="150" />
+    <item android:drawable="@drawable/poke18" android:duration="150" />
+    <item android:drawable="@drawable/poke19" android:duration="150" />
+    <item android:drawable="@drawable/poke20" android:duration="150" />
+
+</animation-list>
